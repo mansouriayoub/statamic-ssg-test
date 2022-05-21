@@ -1,6 +1,6 @@
 [build]
 publish = "storage/app/static"
-command= "php please ss:generate"
+command= "php please ssg:generate"
 
 [context.production.environment]
 PHP_VERSION="8.1.6"
