@@ -1,0 +1,28 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: address
+        field:
+          type: text
+          display: Address
+          instructions_position: above
+          listable: hidden
+          read_only: false
+          input_type: text
+          antlers: false
+      -
+        handle: phone_number
+        field:
+          type: text
+      -
+        handle: url
+        field:
+          type: text
+          display: URL
+          instructions_position: above
+          listable: hidden
+          read_only: false
+          input_type: text
+          antlers: false
